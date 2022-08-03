@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.seccion{
+  background-color: darkslateblue;
+  padding: 0.7rem;
+  margin: 0.7rem;
+}
+
+.parrafo{
+  background-color: white;
+  padding: 0.7rem;
+  margin:0.7rem;
+}
+
+.parrafo:hover{
+  cursor: pointer;
+}
+
+.parrafo.dragging{
+  opacity: 0.3;
+}
+
+.img{
+  display: flex;
+  justify-content: center;
+}
+img{
+  
+  width: 10%;
+  height: auto;
+}
